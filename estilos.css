@@ -1,0 +1,209 @@
+body {
+    background-color: rgb(226, 72, 11);
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    text-align: justify;
+    background-image: url(imagenes/fondo\ de\ pagina.jpg);
+    cursor: crosshair;
+
+}
+
+
+a {
+    text-decoration: none;
+    color: rgb(247, 248, 247);
+    font-size: xx-large;
+    border: 15px;
+    margin: 10px;
+    font-family: 'Roboto', sans-serif;
+    cursor: crosshair;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 80px;
+    background: #8A2387;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #F27121, #E94057, #8A2387);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #F27121, #E94057, #8A2387);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    cursor: crosshair;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 17px 0px;
+    font-size: xx-large;
+}
+
+.logonombre {
+    font-size: 2.5rem;
+
+}
+
+.logo-img {
+    height: 120px;
+    margin-right: 90px;
+}
+
+nav a:hover {
+    color: rgb(250, 246, 246);
+}
+
+
+.caja {
+    border: 0px;
+    background-color: azure;
+    top: 20px;
+    text-align: justify;
+    float: left;
+    font-size: x-large;
+    background-image: url(imagenes/fondo\ de\ pagina.jpg);
+    cursor: crosshair;
+    padding: 10px;
+}
+
+.grid-layout {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 60% 40%;
+    background-color: rgb(5, 5, 5);
+    border: 0px;
+    background-image: url(imagenes/fondo\ de\ pagina.jpg);
+    cursor: crosshair;
+    font-family: 'Roboto', sans-serif;
+}
+
+.c1 {
+    grid-column: 1/2;
+    background-color: rgb(46, 87, 73);
+    grid-row: 1/span 3;
+}
+
+section {
+    display: flex;
+    width: 1100px;
+    height: 500px;
+}
+
+section img {
+    width: 6%;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 3;
+    transition: 3s ease;
+}
+
+section img:hover {
+    cursor: crosshair;
+    width: 200px;
+    opacity: 3;
+    filter: contrast(120%);
+
+}
+
+h1 {
+    font-size: 3.5rem;
+    background-color: #aa162ad7;
+    border: 3px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.7rem;
+    background-color: #d89339b0;
+    border: 3px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 2.2rem;
+    background-color: #4dc2427a;
+    border: 3px;
+    text-align: center;
+}
+
+h4 {
+    font-size: 2.2rem;
+    background-color: #b93446cb;
+    border: 3px;
+    text-align: center;
+}
+
+h5 {
+    font-size: 2.2rem;
+    background-color: #b93446d5;
+    border: 3px;
+    text-align: center;
+}
+
+footer {
+    font-size: 9vw;
+    background: #8A2387;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #F27121, #E94057, #8A2387);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #F27121, #E94057, #8A2387);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    min-height: 100%;
+    height: 100px;
+}
+
+footer p {
+    margin: 0;
+    background-image: url(imagenes/fondo\ de\ pagina.jpg);
+}
+
+footer.container {
+    height: 150px;
+    color: rgb(100, 100, 100);
+    justify-content: center;
+    display: flex;
+    align-items: flex-end;
+    background-image: url(imagenes/fondo\ de\ pagina.jpg);
+    cursor: crosshair;
+}
+
+
+
+p {
+    text-align: justify;
+    color: rgb(253, 255, 252);
+    font-size: xx-large;
+    cursor: crosshair;
+}
+
+.fin {
+
+    text-align: center;
+    font-size: large;
+    padding-left: 40px;
+    float: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 50px;
+    margin: 50px;
+    border: #161516;
+    font-size: 4.5rem;
+    cursor: crosshair;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.p10 {
+    padding: 10px;
+}
